@@ -10,4 +10,3 @@ for i in range(1, 21):
 
 
 print(f'Подходящие пары{result}')
-print("".join(result))
