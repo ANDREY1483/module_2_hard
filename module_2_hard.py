@@ -4,7 +4,7 @@ for i in range(1, 21):
     for j in range(2, 21):
         sum = i + j
         if sum > 0 and first_number % sum == 0:
-            if j not in result:
+            if j not in result and j != i:
                 result.append(i)
                 result.append(j)
 
